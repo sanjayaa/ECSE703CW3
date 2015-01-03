@@ -2123,6 +2123,7 @@ ul.faq li > div h3 {
 
 .blog .blog-item .blog-content {
   padding-bottom: 25px;
+  text-align: justify;
 }
 
 .blog .blog-item .blog-content h2 {
