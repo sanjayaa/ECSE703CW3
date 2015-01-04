@@ -5,28 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Introduction</title>
+        <title>Apply Registration | Warmth</title>
+
+        <!-- core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/prettyPhoto.css" rel="stylesheet">
         <link href="css/animate.min.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
+
         <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
         <script src="js/respond.min.js"></script>
-        <![endif]-->
+        <![endif]-->       
         <link rel="shortcut icon" href="images/ico/favicon.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    </head><!--/head-->
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> 
+    </head>
     <body>
-
         <header id="header">
 
-            <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -40,11 +42,11 @@
 
                     <div class="collapse navbar-collapse navbar-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="dropdown active">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Low Cost Computing <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li class="active"><a href="lcc-introduction.html">Introduction </a></li>
+                                    <li><a href="lcc-introduction.html">Introduction </a></li>
                                     <li><a href="lcc-olpc.html">OLPC</a></li>
                                     <li><a href="lcc-n-computing.html">N-Computing</a></li>
                                     <li><a href="lcc-other-projects.html">Other Projects</a></li>
@@ -55,11 +57,11 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Donate <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="what-we-do.html">What we do</a></li>
-                                    <li><a href="apply-registration.html">Apply for registration</a></li>
+                                    <li class="active"><a href="apply-registration.html">Apply for registration</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-double-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="blog-item.html">Blog Single</a></li>
                                     <li><a href="pricing.html">Pricing</a></li>
@@ -81,77 +83,148 @@
                     </div>
                 </div><!--/.container-->
             </nav><!--/nav-->
-
         </header><!--/header-->
-        <section id="portfolio">
+
+        <section id="apply-registration">
             <div class="container">
-                <div class="center">
-                    <h2>Low Cost Computing</h2>
-                    <p class="lead">When talking about Computing for Education in developing countries, low cost computing has a
-                        major importance. On the other hand, low cost computing is a vastly discussed topic in computing world
-                        which doesn't limit to education. The following article discusses on low cost computing in a general
-                        view point. </p>
+
+                <div class="center wow fadeInDown">
+                    <h2>Apply for Registration</h2>
+                    <p class="lead">
+                        This registration form will allows you to directly media to contact with us. We will review 
+                        your details get you back asap.
+                    </p>
                 </div>
 
+                <form class="form-horizontal">
+                    <fieldset>
 
-                <div class="row">
-                    <div class="portfolio-items">
-                        <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
-                            <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/LaptopOLPC.jpg" alt="">
-                                <div class="overlay">
-                                    <div class="recent-work-inner">
-                                        <h3><a href="#">One Laptop Per Child</a></h3>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="lcc-olpc.html" ><i class="fa fa-eye"></i> View</a>
-                                    </div>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="requirementtitle">Requirement Title</label>  
+                            <div class="col-md-8">
+                                <input id="requirementtitle" name="requirementtitle" type="text" placeholder="Requirement Title" class="form-control input-md" required="">
+
+                            </div>
+                        </div>
+
+                        <!-- Multiple Radios -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="requirementsfor">Requirements For</label>
+                            <div class="col-md-4">
+                                <div class="btn-group" role="group" aria-label="requirementneedsto">
+                                    <button type="button" class="active btn btn-default" id="regi1">Institution</button>
+                                    <button type="button" class="btn btn-default" id="regi2">Individual</button>
                                 </div>
                             </div>
-                        </div><!--/.portfolio-item-->
+                        </div>
 
-                        <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
-                            <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                                <div class="overlay">
-                                    <div class="recent-work-inner">
-                                        <h3><a href="#">Business theme</a></h3>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                    </div>
-                                </div>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="nameofowner">Institution or Contact person name</label>  
+                            <div class="col-md-6">
+                                <input id="nameofowner" name="nameofowner" type="text" placeholder="Name for Contact / Institution" class="form-control input-md" required="">
+
                             </div>
-                        </div><!--/.portfolio-item-->
+                        </div>
 
-                        <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
-                            <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                                <div class="overlay">
-                                    <div class="recent-work-inner">
-                                        <h3><a href="#">Business theme</a></h3>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                    </div>
-                                </div>
+                        <!-- Textarea -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="requirementdescription">Description of Requirements</label>
+                            <div class="col-md-6">                     
+                                <textarea class="form-control" id="requirementdescription" name="requirementdescription" rows="6"></textarea>
                             </div>
-                        </div><!--/.portfolio-item-->
+                        </div>
 
-                        <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
-                            <div class="recent-work-wrap">
-                                <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
-                                <div class="overlay">
-                                    <div class="recent-work-inner">
-                                        <h3><a href="#">Business theme</a></h3>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                        <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                    </div>
+                        <!-- Appended Input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="donationamountrequired">Expected amount of donation</label>
+                            <div class="col-md-3">
+                                <div class="input-group">
+                                    <input id="donationamountrequired" name="donationamountrequired" class="form-control" placeholder="Amount" type="text" required="">
+                                    <span class="input-group-addon">USD</span>
                                 </div>
+                                <p class="help-block">Please convert project value to USD</p>
                             </div>
-                        </div><!--/.portfolio-item-->
+                        </div>
+                        <!-- Prepended text-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="contactno">Contact No</label>
+                            <div class="col-md-5">
+                                <div class="input-group">
+                                    <span class="input-group-addon">+94</span>
+                                    <input id="contactno" name="contactno" class="form-control" placeholder="Contact no" type="text" required="">
+                                </div>
 
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="email">Email address</label>  
+                            <div class="col-md-6">
+                                <input id="email" name="email" type="text" placeholder="name@example.com" class="form-control input-md" required="">
+
+                            </div>
+                        </div>
+
+                        <!-- Prepended text-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="fax">Fax no</label>
+                            <div class="col-md-5">
+                                <div class="input-group">
+                                    <span class="input-group-addon">+94</span>
+                                    <input id="fax" name="fax" class="form-control" placeholder="Fax no" type="text">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Textarea -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="Address">Address</label>
+                            <div class="col-md-5">                     
+                                <textarea class="form-control" id="Address" name="Address" rows="4"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Button -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="Confirm"></label>
+                            <div class="col-md-4">
+                                <button id="Confirm" name="Confirm" class="btn btn-info" data-toggle="modal" data-target="#registrationconfirmation">Confirmation</button>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+                <!-- Modal -->
+                <div class="modal fade " id="registrationconfirmation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Registration confirmation</h4>
+                            </div>
+                            <div class="modal-body">
+                                Please be noted, your request will be highly evaluated by our team and approval message will be 
+                                sent to your email address electronically and a paper written confirmation will be sent you via
+                                your mailing address. To be a part of our member, please make sure your data are very much truthful.
+                                Which makes your process much faster. 
+
+                                All of your data going to accurately reviewed by our team. For that physical visits are required from
+                                our team member.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success">Apply for Registration</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Exit</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section><!--/#portfolio-item-->
+        </section>
 
         <section id="bottom">
             <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -168,7 +241,7 @@
                                 <li><a href="#">Privacy policy</a></li>
                                 <li><a href="#">Contact us</a></li>
                             </ul>
-                        </div>
+                        </div>    
                     </div><!--/.col-md-3-->
 
                     <div class="col-md-3 col-sm-6">
@@ -183,7 +256,7 @@
                                 <li><a href="#">Ticket system</a></li>
                                 <li><a href="#">Billing system</a></li>
                             </ul>
-                        </div>
+                        </div>    
                     </div><!--/.col-md-3-->
 
                     <div class="col-md-3 col-sm-6">
@@ -198,7 +271,7 @@
                                 <li><a href="#">Plugin Development</a></li>
                                 <li><a href="#">Article Writing</a></li>
                             </ul>
-                        </div>
+                        </div>    
                     </div><!--/.col-md-3-->
 
                     <div class="col-md-3 col-sm-6">
@@ -213,7 +286,7 @@
                                 <li><a href="#">Ullamco</a></li>
                                 <li><a href="#">Laboris</a></li>
                             </ul>
-                        </div>
+                        </div>    
                     </div><!--/.col-md-3-->
                 </div>
             </div>
@@ -237,7 +310,14 @@
             </div>
         </footer><!--/#footer-->
 
+
         <script src="js/jquery.js"></script>
+        <script type="text/javascript">
+            $(".btn-group > .btn").click(function () {
+                $(".btn-group > .btn").removeClass("active");
+                $(this).addClass("active");
+            });
+        </script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.prettyPhoto.js"></script>
         <script src="js/jquery.isotope.min.js"></script>
