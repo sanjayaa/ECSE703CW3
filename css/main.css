@@ -508,8 +508,8 @@ input.search-form:hover {
   -o-animation: fadeInUp 300ms linear 300ms both;
   -ms-animation: fadeInUp 300ms linear 300ms both;
   animation: fadeInUp 300ms linear 300ms both;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #C0C0C0;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px red;
 }
 
 #main-slider .active .animation.animated-item-2 {
@@ -518,8 +518,8 @@ input.search-form:hover {
   -o-animation: fadeInUp 300ms linear 600ms both;
   -ms-animation: fadeInUp 300ms linear 600ms both;
   animation: fadeInUp 300ms linear 600ms both;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #C0C0C0;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px red;
 }
 
 #main-slider .active .animation.animated-item-3 {
