@@ -1,0 +1,181 @@
+<gallery>
+
+
+     <items>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t1.jpg</thumb>
+               <source>gallery/images/1.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t2.jpg</thumb>
+               <source>gallery/images/2.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t3.jpg</thumb>
+               <source>gallery/images/3.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t4.jpg</thumb>
+               <source>gallery/images/4.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t5.jpg</thumb>
+               <source>gallery/images/5.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t6.jpg</thumb>
+               <source>gallery/images/6.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t7.jpg</thumb>
+               <source>gallery/images/7.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t8.jpg</thumb>
+               <source>gallery/images/8.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t9.jpg</thumb>
+               <source>gallery/images/9.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t10.jpg</thumb>
+               <source>gallery/images/10.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>gallery/images/t11.jpg</thumb>
+               <source>gallery/images/11.jpg</source>
+          </item>
+		  <item>
+
+
+
+
+               <thumb>gallery/images/t12.jpg</thumb>
+               <source>gallery/images/12.jpg</source>
+          </item>
+		  <item>
+
+
+
+
+               <thumb>gallery/images/t13.jpg</thumb>
+               <source>gallery/images/13.jpg</source>
+          </item>
+		  <item>
+
+
+
+
+               <thumb>gallery/images/t14.jpg</thumb>
+               <source>gallery/images/14.jpg</source>
+          </item>
+     </items>
+     <settings>
+
+
+
+
+
+
+
+          <buttons>
+
+
+
+
+               <showFullscreenButton>1</showFullscreenButton>
+               <showImageNavigationButtons>1</showImageNavigationButtons>
+               <showTwitterButton>1</showTwitterButton>
+               <showFacebookButton>1</showFacebookButton>
+               <showSlideshowButton>1</showSlideshowButton>
+          </buttons>
+          <slideshow>
+
+               <start>0</start>
+               <delay>2.5</delay>
+          </slideshow>
+          <thumbnail>
+
+
+               <width>50</width>
+               <alpha>70</alpha>
+               <height>30</height>
+          </thumbnail>
+          <image>
+
+
+               <scaleMode>fit</scaleMode>
+               <bgTintColor>0</bgTintColor>
+               <padding>50</padding>
+          </image>
+          <translation>
+
+
+
+
+
+
+               <getLink>Get link</getLink>
+               <fullscreenMode>Fullscreen mode</fullscreenMode>
+               <tweet>Tweet</tweet>
+               <shareWithFacebook>Share with Facebook</shareWithFacebook>
+               <startSlideshow>Start slideshow</startSlideshow>
+               <stopSlideshow>Stop slideshow</stopSlideshow>
+               <clickToView>Click to view</clickToView>
+          </translation>
+          <caption>
+               <showCaption>1</showCaption>
+          </caption>
+          <background>
+
+               <transparentBG>1</transparentBG>
+               <bgColor>16777215</bgColor>
+          </background>
+     </settings>
+     <galleryName>Aura Gallery</galleryName>
+</gallery>
